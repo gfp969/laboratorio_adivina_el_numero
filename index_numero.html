@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="">
+    <script src="adivina_el_numero.js"></script>
+    <link rel="stylesheet" href="adivina_numero.css">
+    <title>Adivina el numero</title>
+</head>
+
+<body>
+    <header>
+        <h1>¡Adivina el numero!</h1>
+    </header>
+    <main>
+        <h2>¡Escoje un numero entre el 1 y el 100!</h2>
+        <br>
+        <input type="number" id="Barra">
+        <br>
+        <br>
+        <button onclick="AdivinarNumero()" class="botones">Verificar</button>
+        <br>
+        <br>
+        <button onclick="reiniciarJuego()" class="botones">Reiniciar Juego</button>
+        <br>
+        <div id="resul">
+            <p id="resultado"></p>
+        </div>
+    </main>
+</body>
+
+</html>
